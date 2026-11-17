@@ -1,0 +1,194 @@
+{
+  "ldsu_basic_pipeline_time_ratio_by_dataset": [
+    1.3017187869026197,
+    1.1226030969007283,
+    1.1136984511675854,
+    1.1038924706602338,
+    1.2151117668619675,
+    1.1809365443019404,
+    1.291172614827705,
+    2.113135302523599,
+    2.4552413519797307,
+    1.3229701362789832
+  ],
+  "ldsu_minus_basic_selected_features_by_dataset": [
+    0.11111111111111072,
+    0.33333333333333304,
+    0.0,
+    -2.666666666666667,
+    -1.1111111111111125,
+    -0.5555555555555554,
+    0.0,
+    0.8888888888888893,
+    2.7777777777777715,
+    1.0
+  ],
+  "mean_ldsu_pair_coverage_pct_high_dimensional": 0.1098851088357159,
+  "median_ldsu_basic_pipeline_time_ratio": 1.2531421908448364,
+  "primary_contrasts_balanced_accuracy": {
+    "all_svm": {
+      "bootstrap_95_ci_mean": [
+        -0.064961720947425,
+        -0.0022104699430753882
+      ],
+      "dataset_order": [
+        "wine",
+        "breast_cancer",
+        "digits",
+        "ionosphere",
+        "sonar",
+        "spambase",
+        "semeion",
+        "madelon",
+        "arcene",
+        "rna_seq"
+      ],
+      "differences": [
+        -0.00733042348221602,
+        -0.004412751015899108,
+        -0.06847337862049796,
+        -0.00015873015873002494,
+        -0.0013436732186732359,
+        -0.04102659372366435,
+        -0.12893610525254384,
+        0.04230242098080883,
+        -0.10093469149730505,
+        -0.008473815276246688
+      ],
+      "exact_sign_flip_p_two_sided": 0.068359375,
+      "holm_adjusted_wilcoxon_p": 0.1484375,
+      "mean_difference": -0.03187877412649674,
+      "median_difference": -0.007902119379231354,
+      "wilcoxon_p_two_sided": 0.037109375,
+      "wilcoxon_statistic": 7.0,
+      "wins_ties_losses": [
+        1,
+        0,
+        9
+      ]
+    },
+    "anova": {
+      "bootstrap_95_ci_mean": [
+        -0.04815270067229182,
+        0.004802769916623302
+      ],
+      "dataset_order": [
+        "wine",
+        "breast_cancer",
+        "digits",
+        "ionosphere",
+        "sonar",
+        "spambase",
+        "semeion",
+        "madelon",
+        "arcene",
+        "rna_seq"
+      ],
+      "differences": [
+        0.010174944204310976,
+        0.00915032679738581,
+        -0.045650517722213846,
+        0.0016931216931217463,
+        0.04040546228046238,
+        -0.01953771364736634,
+        -0.12893610525254384,
+        -0.01717438322519127,
+        -0.026391999985466486,
+        -0.008473815276246688
+      ],
+      "exact_sign_flip_p_two_sided": 0.234375,
+      "holm_adjusted_wilcoxon_p": 0.697265625,
+      "mean_difference": -0.018474068013374756,
+      "median_difference": -0.012824099250718979,
+      "wilcoxon_p_two_sided": 0.275390625,
+      "wilcoxon_statistic": 16.0,
+      "wins_ties_losses": [
+        4,
+        0,
+        6
+      ]
+    },
+    "basic_ga": {
+      "bootstrap_95_ci_mean": [
+        -0.002776800470445086,
+        0.023090849915744466
+      ],
+      "dataset_order": [
+        "wine",
+        "breast_cancer",
+        "digits",
+        "ionosphere",
+        "sonar",
+        "spambase",
+        "semeion",
+        "madelon",
+        "arcene",
+        "rna_seq"
+      ],
+      "differences": [
+        0.002247718733225934,
+        -0.002663037045804173,
+        0.041648416244472575,
+        -0.010582010582010581,
+        0.024294180544180644,
+        -0.0033539765015603296,
+        0.05048785089480612,
+        0.005653645898002768,
+        -0.01517197778540802,
+        0.0018538138659721648
+      ],
+      "exact_sign_flip_p_two_sided": 0.23828125,
+      "holm_adjusted_wilcoxon_p": 0.697265625,
+      "mean_difference": 0.00944146242658771,
+      "median_difference": 0.0020507662995990494,
+      "wilcoxon_p_two_sided": 0.4921875,
+      "wilcoxon_statistic": 20.0,
+      "wins_ties_losses": [
+        6,
+        0,
+        4
+      ]
+    },
+    "random_search": {
+      "bootstrap_95_ci_mean": [
+        0.0006618055216673717,
+        0.06394129646159352
+      ],
+      "dataset_order": [
+        "wine",
+        "breast_cancer",
+        "digits",
+        "ionosphere",
+        "sonar",
+        "spambase",
+        "semeion",
+        "madelon",
+        "arcene",
+        "rna_seq"
+      ],
+      "differences": [
+        -0.0040896827414753645,
+        -0.006351178969240312,
+        0.1473246009516621,
+        -0.007037037037037064,
+        0.0178189553189555,
+        0.027935191671531134,
+        0.10659268885930606,
+        -0.010123585553817205,
+        0.012449836406279058,
+        -0.0006591320046231974
+      ],
+      "exact_sign_flip_p_two_sided": 0.119140625,
+      "holm_adjusted_wilcoxon_p": 0.697265625,
+      "mean_difference": 0.02838606569015407,
+      "median_difference": 0.00589535220082793,
+      "wilcoxon_p_two_sided": 0.232421875,
+      "wilcoxon_statistic": 15.0,
+      "wins_ties_losses": [
+        5,
+        0,
+        5
+      ]
+    }
+  }
+}

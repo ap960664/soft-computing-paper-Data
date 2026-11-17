@@ -1,0 +1,20 @@
+{
+  "all_complete": true,
+  "all_metric_recomputations_match": true,
+  "all_search_budgets_match": true,
+  "all_splits_valid_and_shared": true,
+  "dense_lazy_exact_equivalences": 72,
+  "dense_lazy_pairs": 72,
+  "errors": [],
+  "max_dense_lazy_convergence_delta": 0.0,
+  "method_counts": {
+    "all_svm": 90,
+    "anova": 90,
+    "basic_ga": 90,
+    "dense_cgmo": 72,
+    "ldsu_ga": 90,
+    "random_search": 90
+  },
+  "passed": true,
+  "workers": 522
+}
